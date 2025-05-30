@@ -36,20 +36,26 @@ function Hero() {
             >
               Software Engineer, Frontend mentor @sanbercode 🖥️
             </Typography>
-            <div className="grid grid-cols-2 md:grid-cols-6 gap-4 mt-6 lg:mt-4">
-              <Link href="https://www.linkedin.com/in/muhammad-iriansyah-putra-pratama-a0120514b/" target="_blank">
-                <img
-                  alt="gege"
-                  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-                  className="w-full h-auto"
-                />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mt-6 lg:mt-4">
+              <Link href="https://www.linkedin.com/in/muhammad-iriansyah-putra-pratama-a0120514b" target="_blank">
+                <Button {...({} as any)} className="bg-linkedin" fullWidth>
+                  Linkedin
+                </Button>
               </Link>
               <Link href="https://github.com/pace11" target="_blank">
-                <img
-                  alt="gege"
-                  src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                  className="w-full h-auto"
-                />
+                <Button {...({} as any)} fullWidth>
+                  Github
+                </Button>
+              </Link>
+              <Link href="https://www.instagram.com/ryanpace11" target="_blank">
+                <Button {...({} as any)} className="bg-instagram" fullWidth>
+                  Instagram
+                </Button>
+              </Link>
+              <Link href="https://www.threads.com/@ryanpace11" target="_blank">
+                <Button {...({} as any)} fullWidth>
+                  Threads
+                </Button>
               </Link>
             </div>
             <Typography {...({} as any)} className="font-normal mb-10 mt-6 !text-gray-600 hidden md:block">

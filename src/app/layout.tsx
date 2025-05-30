@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon" />
       </head>
       <body className={roboto.className}>
         <Layout>{children}</Layout>
