@@ -12,7 +12,22 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: 'Muhammad Iriansyah - Software Engineer Portfolio',
   description:
-    'Discover the portfolio of Muhammad Iriansyah, a skilled Software Engineer with 5+ years of experience in building web applications using modern technologies like React, Next.js, Typescript and Golang.',
+    'Discover the portfolio of Muhammad Iriansyah, a skilled Software Engineer with 5+ years of experience in building web applications using modern technologies like React, Next.js, Typescript, Nodejs and Golang.',
+  openGraph: {
+    title: 'Muhammad Iriansyah - Software Engineer Portfolio',
+    description:
+      'Discover the portfolio of Muhammad Iriansyah, a skilled Software Engineer with 5+ years of experience in building web applications using modern technologies like React, Next.js, Typescript, Nodejs and Golang.',
+    url: 'https://pace11.my.id',
+    type: 'website',
+    images: [
+      {
+        url: 'https://pace11/my.id/image/muhammad-iriansyah.jpg',
+        width: 1200,
+        height: 1200,
+        alt: 'Muhammad Iriansyah',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
