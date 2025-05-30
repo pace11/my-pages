@@ -63,7 +63,7 @@ function Hero() {
               always up for solving real problems with code.`}
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start mt-8 lg:mt-0">
-              <Link href="https://sanbercode.com/bootcamp/next-js" target="_blank">
+              <Link href="#my-course" target="_self">
                 <Button {...({} as any)} color="gray">
                   view my course
                 </Button>
