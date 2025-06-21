@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "key": "frontend",
+      "projects": [
+        {
+          "title": "Share Recipe Foods",
+          "repository_name": "absensi-web",
+          "repository_url": "https://github.com/pace11/share-recipe-foods",
+          "preview_url": "https://recipe-foods.pace11.my.id",
+          "description": "Share Recipe Foods is a frontend recipe-sharing app built with Next.js (Pages Router), TypeScript, Shadcn UI, Zustand, SWR, and JWT for authentication",
+          "topics": ["nextjs", "typescript", "zustand", "dockerfile", "github-actions"],
+          "image_url": "/image/projects/project-recipe.png"
+        }
+      ]
+    },
+    {
+      "key": "fullstack-app",
+      "projects": [
+        {
+          "title": "Jobs Seeker",
+          "repository_name": "jobs-seeker",
+          "repository_url": "https://github.com/pace11/jobs-seeker",
+          "preview_url": "https://jobs.pace11.my.id",
+          "description": "Simply application Jobs Seeker dashboard management and user experience friendly - Fullstack Course Next.js",
+          "topics": ["nextjs", "typescript", "next-auth", "drizzle-orm", "jwt", "postgresql"],
+          "image_url": "/image/projects/project-jobs-seeker.png"
+        },
+        {
+          "title": "Attendance Management",
+          "repository_name": "absensi-web",
+          "repository_url": "https://github.com/pace11/absensi-web",
+          "preview_url": "https://absensi.pace11.my.id",
+          "description": "A fullstack attendance management application built with Next.js and MySQL. The system allows employees to check in and check out, view their daily and monthly attendance records, and manage their profiles. Admin users can manage employee data, view attendance logs, and generate reports. The app implements JWT-based authentication, responsive UI using Ant Design, and utilizes API routes for backend logic with Drizzle ORM for database access",
+          "topics": ["nextjs", "javascript", "next-auth", "drizzle-orm", "jwt", "mysql"],
+          "image_url": "/image/projects/project-absensi.png"
+        }
+      ]
+    },
+    {
+      "key": "backend-service",
+      "projects": [
+        {
+          "title": "Service API",
+          "repository_name": "service-pace",
+          "repository_url": "https://github.com/pace11/service-pace",
+          "preview_url": "https://service.pace11.my.id/swagger/index.html",
+          "description": "an API Service built during the application development process, focusing on learning automation and observability with Golang",
+          "topics": ["golang", "jwt", "rest-api", "gorm", "mysql"],
+          "image_url": "/image/projects/project-service-api.png"
+        },
+        {
+          "title": "Weather API",
+          "repository_name": "weather-api",
+          "repository_url": "https://github.com/pace11/weather-api",
+          "preview_url": "https://farizdotid.github.io/DAFTAR-API-LOKAL-INDONESIA/#/?id=cuaca",
+          "description": "Unofficial Weather API Wrapper from XML to JSON references from API BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)",
+          "topics": ["rest-api", "graphql", "swagger", "expressjs", "javascript"],
+          "image_url": "/image/projects/project-weather-api.png"
+        },
+        {
+          "title": "Kurbankan",
+          "repository_name": "kurbankan",
+          "repository_url": "https://github.com/pace11/kurbankan",
+          "preview_url": "",
+          "description": "A RESTful API service designed to support a nationwide Qurban platform, enabling seamless integration between users and mosques across Indonesia. It handles participant registration, animal management, distribution tracking, and reporting built for scalability, transparency, and ease of integration",
+          "topics": ["golang", "jwt", "rest-api", "gorm", "mysql"],
+          "image_url": "/image/projects/project-kurbankan.png"
+        }
+      ]
+    },
+    {
+      "key": "infrastructure",
+      "projects": [
+        {
+          "title": "Pace App",
+          "repository_name": "pace-app",
+          "repository_url": "https://github.com/pace11/pace-app",
+          "preview_url": "",
+          "description": "A containerized backend platform for managing services like Qurban integration with mosques across Indonesia. Built using Docker Compose, this project combines NGINX, PostgreSQL, and MySQL to support scalable and secure deployments",
+          "topics": ["docker-compose", "nginx", "postgresql", "mysql", "certbot", "github-actions"],
+          "image_url": "/image/projects/project-pace-app.png"
+        }
+      ]
+    },
+    {
+      "key": "library",
+      "projects": [
+        {
+          "title": "PassQ CLI",
+          "repository_name": "passq",
+          "repository_url": "https://github.com/pace11/passq",
+          "preview_url": "https://www.npmjs.com/package/@pace11/passq",
+          "description": "A simple CLI library built with JavaScript, Commander, and SQLite for managing passwords",
+          "topics": ["javascript", "commander", "sqlite", "cli"],
+          "image_url": "/image/projects/project-passq-cli.png"
+        }
+      ]
+    }
+  ]
+}

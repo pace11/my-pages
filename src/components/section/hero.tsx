@@ -10,7 +10,7 @@ function Hero() {
       <Image
         width={1200}
         height={1200}
-        src="/image/image8.svg"
+        src="/image/hero-bg.svg"
         alt="bg-img"
         className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
       />
