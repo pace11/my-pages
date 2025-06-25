@@ -19,7 +19,7 @@ const NAV_MENU = [
   {
     name: 'Blog',
     icon: BookOpenIcon,
-    href: 'https://outline.pace11.my.id/s/1c1664bf-b933-432b-a974-647168d8761a/doc/oret-oretan-pace-6HbVhuxyx8',
+    href: '/blog',
   },
 ]
 
