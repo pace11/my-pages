@@ -11,6 +11,24 @@
           "description": "Share Recipe Foods is a frontend recipe-sharing app built with Next.js (Pages Router), TypeScript, Shadcn UI, Zustand, SWR, and JWT for authentication",
           "topics": ["nextjs", "typescript", "zustand", "dockerfile", "github-actions"],
           "image_url": "/image/projects/project-recipe.png"
+        },
+        {
+          "title": "Dashboard PLN UIP3B Sumatera",
+          "repository_name": "",
+          "repository_url": "",
+          "preview_url": "https://dashboard.infouip3bs.com",
+          "description": "A monitoring dashboard built with Next.js and Ant Design, designed to track and evaluate field officer performance within PLN UIP3B Sumatera's operational areas",
+          "topics": ["nextjs", "redux", "javascript", "ant-design"],
+          "image_url": "/image/projects/project-dashboard-pln.png"
+        },
+        {
+          "title": "Web PLN UIP3B Sumatera",
+          "repository_name": "",
+          "repository_url": "",
+          "preview_url": "https://www.infouip3bs.com",
+          "description": "A user-facing web application developed using Next.js and Tailwind CSS, seamlessly integrated with the dashboard system to provide synchronized field data and user interaction",
+          "topics": ["nextjs", "redux", "javascript", "tailwindcss"],
+          "image_url": "/image/projects/project-web-pln.png"
         }
       ]
     },
@@ -57,6 +75,15 @@
           "description": "Unofficial Weather API Wrapper from XML to JSON references from API BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)",
           "topics": ["rest-api", "graphql", "swagger", "expressjs", "javascript"],
           "image_url": "/image/projects/project-weather-api.png"
+        },
+        {
+          "title": "Cycloop",
+          "repository_name": "cycloop",
+          "repository_url": "https://github.com/pace11/cycloop",
+          "preview_url": "https://cycloop.pace11.my.id/api-docs/",
+          "description": "A lightweight TypeScript-based upload service that integrates the AWS S3 SDK to handle file uploads, optimized for Cloudflare R2 storage",
+          "topics": ["typescript", "expressjs", "rest-api", "swagger", "cloudflare-r2"],
+          "image_url": "/image/projects/project-cycloop.png"
         },
         {
           "title": "Kurbankan",
