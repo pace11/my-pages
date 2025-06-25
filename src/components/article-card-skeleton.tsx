@@ -4,7 +4,7 @@ import { Card, CardBody, CardHeader, Typography } from '@material-tailwind/react
 export function ArticleCardSkeleton() {
   return (
     <>
-      <Card {...({} as any)} color="tr" shadow={false}>
+      <Card {...({} as any)} color="tr" shadow={false} className="animate-pulse">
         <CardHeader {...({} as any)} floated={false} className="mx-0 mb-4 h-48 rounded-lg bg-gray-300">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +12,7 @@ export function ArticleCardSkeleton() {
             viewBox="0 0 24 24"
             strokeWidth={2}
             stroke="currentColor"
-            className="h-full w-full text-gray-200"
+            className="h-full w-full text-gray-100"
           >
             <path
               strokeLinecap="round"

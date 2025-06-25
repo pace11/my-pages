@@ -29,7 +29,7 @@ export function ArticleCard({ data, handleReadMore }: { data?: any; handleReadMo
               className="rounded-2xl"
             />
             <Typography {...({} as any)} variant="paragraph" className="text-xs font-normal">
-              {data?.createdBy?.name || ''}
+              {data?.createdBy?.name ? String(data?.createdBy?.name).split(' ')[1] : ''}
               <span className="italic">
                 {` (${data?.updatedAt ? 'edited, ' : ''}${formatDistance(
                   new Date(data?.updatedAt ? data?.updatedAt : data?.createdAt),
