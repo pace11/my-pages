@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://pace11.my.id/image/muhammad-iriansyah.jpg',
-        width: 1200,
-        height: 1200,
+        url: 'https://pace11.my.id/image/11.png',
+        width: 500,
+        height: 500,
         alt: 'Muhammad Iriansyah',
       },
     ],
