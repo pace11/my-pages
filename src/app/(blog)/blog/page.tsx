@@ -1,11 +1,11 @@
 import Navbar from '@/components/navbar-blog'
-import MyArticles from '@/components/section/my-articles'
+import MyBlogs from '@/components/section/my-blogs'
 
 export default function Blog() {
   return (
     <>
       <Navbar />
-      <MyArticles />
+      <MyBlogs />
     </>
   )
 }

@@ -8,7 +8,7 @@ import useSWR from 'swr'
 import { useState } from 'react'
 import ArticleCardSkeleton from '../article-card-skeleton'
 
-export function MyArticles() {
+export function MyBlogs() {
   const { data: articles, isLoading } = useSWR(`${process.env.NEXT_PUBLIC_DOMAIN_URL}/api/articles`, fetcher)
   const [detail, setDetail] = useState('')
 
@@ -19,7 +19,7 @@ export function MyArticles() {
       <div className="container mx-auto text-center lg:text-left">
         <div className="grid place-items-center text-center">
           <Typography {...({} as any)} variant="h2" color="blue-gray" className="mb-2 text-4xl">
-            My Articles
+            My Blogs
           </Typography>
           <Typography {...({} as any)} variant="lead" className="mx-auto mb-6 w-full !text-gray-500 lg:w-5/12">
             Just some ideas I jotted down, now shared for anyone who might need them
@@ -42,4 +42,4 @@ export function MyArticles() {
     </section>
   )
 }
-export default MyArticles
+export default MyBlogs
