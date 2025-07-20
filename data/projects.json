@@ -72,7 +72,7 @@
           "repository_name": "weather-api",
           "repository_url": "https://github.com/pace11/weather-api",
           "preview_url": "https://farizdotid.github.io/DAFTAR-API-LOKAL-INDONESIA/#/?id=cuaca",
-          "description": "Unofficial Weather API Wrapper from XML to JSON references from API BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)",
+          "description": "Unofficial Weather API Wrapper Easy to use in Graphql. Reference from API BMKG (Badan Meteorologi, Klimatologi, dan Geofisika) https://data.bmkg.go.id",
           "topics": ["rest-api", "graphql", "swagger", "expressjs", "javascript"],
           "image_url": "/image/projects/project-weather-api.png"
         },
