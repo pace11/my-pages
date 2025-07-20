@@ -102,9 +102,9 @@
         {
           "title": "Pace App",
           "repository_name": "pace-app",
-          "repository_url": "https://github.com/pace11/pace-app",
+          "repository_url": "https://github.com/pace11/pace-app-neo",
           "preview_url": "",
-          "description": "A containerized backend platform for managing services like Qurban integration with mosques across Indonesia. Built using Docker Compose, this project combines NGINX, PostgreSQL, and MySQL to support scalable and secure deployments",
+          "description": "Docker Compose setup for running backend, frontend, databases (MySQL & PostgreSQL), NGINX, and other self-hosted services in a scalable, modular environment.",
           "topics": ["docker-compose", "nginx", "postgresql", "mysql", "certbot", "github-actions"],
           "image_url": "/image/projects/project-pace-app.png"
         }
