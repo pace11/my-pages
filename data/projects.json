@@ -4,6 +4,25 @@
       "key": "frontend",
       "projects": [
         {
+          "title": "Readable News App",
+          "repository_name": "readable",
+          "repository_url": "https://github.com/pace11/readable",
+          "preview_url": "https://readable.pace11.my.id",
+          "description": "Simple News APP with integration using NYT (New York Times) API",
+          "topics": [
+            "reactjs",
+            "typescript",
+            "vite",
+            "vitest",
+            "bun",
+            "tailwindcss",
+            "zustand",
+            "github-actions",
+            "dockerfile"
+          ],
+          "image_url": "/image/projects/project-readable.png"
+        },
+        {
           "title": "Share Recipe Foods",
           "repository_name": "absensi-web",
           "repository_url": "https://github.com/pace11/share-recipe-foods",
